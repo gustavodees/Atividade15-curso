@@ -11,8 +11,8 @@ public class Main {
         if(minutos <= 100){
             JOptionPane.showMessageDialog(null,"Valor á pagar é R$ 50.00");
         }else{
-            double b =  ((minutos - 100) * 2) + 50;
-            JOptionPane.showMessageDialog(null,"Valor á pagar é: " + b);
+            double conta =  ((minutos - 100) * 2) + 50;
+            JOptionPane.showMessageDialog(null,"Valor á pagar é: " + conta);
 
         }
 
