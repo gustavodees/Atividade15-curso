@@ -48,5 +48,5 @@ Para executar este código, você precisará ter o Java Development Kit (JDK) in
 * `double minutos = Double.parseDouble(JOptionPane.showInputDialog(...));`: Exibe uma janela de diálogo para obter a entrada do usuário (o número de minutos utilizados) e converte a entrada para um tipo `double`.
 * `if(minutos <= 100){ ... }`: Verifica se o número de minutos é menor ou igual a 100. Se verdadeiro, exibe uma mensagem informando que o valor a pagar é R$ 50.00.
 * `else { ... }`: Se a condição anterior for falsa (ou seja, o número de minutos é maior que 100), o programa calcula o valor a pagar.
-    * `double b = ((minutos - 100) * 2) + 50;`: Calcula o valor a pagar. Os minutos que excedem 100 são multiplicados por 2 (o custo por minuto extra), e o resultado é somado aos R$ 50.00 iniciais.
-    * `JOptionPane.showMessageDialog(null,"Valor á pagar é: " + b);`: Exibe uma janela de diálogo com o valor total a ser pago.
+    * `double conta = ((minutos - 100) * 2) + 50;`: Calcula o valor a pagar. Os minutos que excedem 100 são multiplicados por 2 (o custo por minuto extra), e o resultado é somado aos R$ 50.00 iniciais.
+    * `JOptionPane.showMessageDialog(null,"Valor á pagar é: " + conta);`: Exibe uma janela de diálogo com o valor total a ser pago.
